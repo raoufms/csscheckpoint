@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="home">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Your gateway to my world of design and development.</p>
+            <video controls>
+                <source src="example.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hi! I’m , a web developer with a passion for creating user-friendly and
+                aesthetically pleasing websites.
+            </p>
+        </section>
+
+        <section id="work">
+            <h2>My Work</h2>
+            <ul>
+                <li><a href="https://example.com/project1" target="_blank">Project 1</a></li>
+                <li><a href="https://example.com/project2" target="_blank">Project 2</a></li>
+                <li><a href="https://example.com/project3" target="_blank">Project 3</a></li>
+            </ul>
+        </section>
+
+        <section id="resume">
+            <h2>Resume</h2>
+            <table>
+                <tr>
+                    <th>Experience</th>
+                    <th>Details</th>
+                </tr>
+                <tr>
+                    <td>Web Developer</td>
+                    <td>Worked on various front-end projects using React and Bootstrap.</td>
+                </tr>
+                <tr>
+                    <td>Graphic Designer</td>
+                    <td>Created engaging designs for print and web.</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="https://example.com/submit-form" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 . All Rights Reserved.</p>
+        </footer>
+    </body>
+</html>
